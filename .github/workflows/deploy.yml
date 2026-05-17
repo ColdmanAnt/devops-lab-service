@@ -42,7 +42,7 @@ jobs:
 
   deploy:
     name: Deploy to VM through SSH
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: ci
 
     steps:
